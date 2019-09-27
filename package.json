@@ -1,5 +1,5 @@
 {
-  "name": "02-bind",
+  "name": "javascript-introduction",
   "version": "1.0.0",
   "description": "js bind method",
   "main": "assignment.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mellonis-edu/02-bind.git"
+    "url": "git+https://github.com/mellonis-edu/javascript-introduction.git"
   },
   "author": "Ruslan Gilmullin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mellonis-edu/02-bind/issues"
+    "url": "https://github.com/mellonis-edu/javascript-introduction/issues"
   },
-  "homepage": "https://github.com/mellonis-edu/02-bind#readme",
+  "homepage": "https://github.com/mellonis-edu/javascript-introduction#readme",
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
@@ -25,6 +25,7 @@
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
+    "fizzbuzzify": "^2.1.0",
     "jest": "^24.9.0"
   },
   "babel": {
