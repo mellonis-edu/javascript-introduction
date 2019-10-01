@@ -68,7 +68,7 @@ describe('javascript-introduction assignments', () => {
     fifth();
     const length = 100;
     expect(spy).toHaveBeenCalledTimes(length);
-    expect(spy.mock.calls.every((call, ix) => call[0] === fizzbuzzify(ix + 1))).toBe(true);
+    expect(spy.mock.calls.every((call, ix) => String(call[0]) === fizzbuzzify(ix + 1))).toBe(true);
   });
 
   test('sixth', () => {
