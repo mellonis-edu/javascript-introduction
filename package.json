@@ -1,7 +1,7 @@
 {
   "name": "javascript-introduction",
   "version": "1.0.0",
-  "description": "js bind method",
+  "description": "variables, loops, if and function calls",
   "main": "assignment.js",
   "scripts": {
     "test": "npm run lint && jest",
